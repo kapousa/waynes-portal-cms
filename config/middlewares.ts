@@ -11,7 +11,7 @@ export default [
           'img-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com', 'localhost:1337'],
           'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com', 'localhost:1337'],
           // CTO FIX: Allow your portal to embed Strapi content
-          'frame-ancestors': ["'self'", 'http://localhost:8080', 'https://waynes-portal-cms.onrender.com/'],
+          'frame-ancestors': ["'self'", 'http://localhost:8080', 'https://waynes-portal.onrender.com'],
           upgradeInsecureRequests: null,
         },
       },
